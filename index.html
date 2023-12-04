@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Order Your Sandwich</h2>
+    <form action="process_order.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="bread">Bread:</label>
+        <select name="bread" required>
+            <option value="white">White</option>
+            <option value="whole_grain">Whole Grain</option>
+            <option value="multigrain">Multigrain</option>
+        </select>
+
+        <label for="filling">Filling:</label>
+        <input type="text" name="filling" required>
+
+        <label for="topping">Topping:</label>
+        <input type="text" name="topping">
+
+        <input type="submit" value="Place Order">
+    </form>
+</div>
+
+</body>
+</html>
