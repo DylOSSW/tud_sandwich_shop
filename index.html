@@ -1,3 +1,14 @@
+<!--
+    Name:           Dylan Holmwood
+    Student Number: D21124331
+    Date:           14, December 2023
+    Module:         Open-source Software
+    Module Code:    OSSW4604
+    Lecturer:       Dr. Ali Malik
+    Description:    This html page is the homepage for the website TUD Sandwich
+                    Shop where you can order a sandwich and customise it.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,22 +19,29 @@
 </head>
 <body>
 
+<!-- Header Section -->
 <div class="header">
+    <!-- Banner with Shop Logo and Title -->
     <div class="banner" style="background-color: #004C6C; color: #fff; display: flex; align-items: center; text-align: center;">
+        <!-- Shop Logo -->
         <img src="tud_logo.png" alt="TUD Sandwich Shop Logo" style="max-width: 100%; height: auto; margin-right: 10px;">
+        <!-- Shop Title -->
         <h1 style="margin: 0;">TUD Sandwich Shop</h1>
     </div>
 </div>
 
-
-
-
+<!-- Main Content Section -->
 <div class="container">
+    <!-- Order Form Heading -->
     <h2>Order Your Sandwich</h2>
+
+    <!-- Sandwich Order Form -->
     <form action="process_order.php" method="post">
+        <!-- Customer Name Input -->
         <label for="name">Name:</label>
         <input type="text" name="name" required>
 
+        <!-- Bread Selection -->
         <label for="bread">Bread:</label>
         <select name="bread" required>
             <option value="white">White</option>
@@ -31,6 +49,7 @@
             <option value="multigrain">Multigrain</option>
         </select>
 
+        <!-- Filling Selection -->
         <label for="filling">Filling:</label>
         <select name="filling" required>
             <option value="ham">Ham</option>
@@ -38,6 +57,7 @@
             <option value="chicken">Chicken</option>
         </select>
 
+        <!-- Topping Selection -->
         <label for="topping">Topping:</label>
         <select name="topping">
             <option value="">None</option> <!-- Added option for no toppings -->
@@ -45,9 +65,9 @@
             <option value="tomato">Tomato</option>
             <option value="cheese">Cheese</option>
             <option value="stuffing">Stuffing</option>
- 
-         </select>
- 
+        </select>
+
+        <!-- Condiment Selection -->
         <label for="condiment">Condiment:</label>
         <select name="condiment">
             <option value="">None</option> <!-- Added option for no condiment -->
@@ -59,6 +79,7 @@
             <option value="garlicmayo">Garlic Mayo</option>
         </select>
 
+        <!-- Submit Button -->
         <input type="submit" value="Place Order">
     </form>
 </div>
