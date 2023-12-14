@@ -11,86 +11,86 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; /* Set the background color for the entire page */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; 
+    margin: 0; 
+    padding: 0; 
 }
 
 /* Header Styles */
 .header {
-    background-color: #333; /* Set the background color for the header */
-    color: #fff; /* Set text color to white */
-    text-align: center; /* Center-align text within the header */
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
 }
 
 /* Banner Styles */
 .banner {
-    padding: px; /* Set padding for the banner (replace 'px' with an appropriate value) */
-    background-color: #004C6C; /* Set the background color for the banner */
+    padding: px; 
+    background-color: #004C6C; 
 }
 
 /* Heading 1 Styles */
 h1 {
-    margin: 0; /* Remove default margin for h1 */
+    margin: 0; 
 }
 
 /* Container Styles */
 .container {
-    max-width: 600px; /* Set the maximum width of the container */
-    margin: 50px auto; /* Center the container horizontally with a top margin of 50px */
-    background-color: #fff; /* Set the background color for the container */
-    padding: 20px; /* Set padding inside the container */
-    border-radius: 8px; /* Add rounded corners to the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the container */
+    max-width: 600px; 
+    margin: 50px auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Heading 2 Styles */
 h2 {
-    text-align: center; /* Center-align text within h2 */
-    color: #333; /* Set text color for h2 */
+    text-align: center; 
+    color: #333; 
 }
 
 /* Form Styles */
 form {
-    display: flex; /* Use flexbox for the form layout */
-    flex-direction: column; /* Arrange form elements in a column */
+    display: flex; 
+    flex-direction: column; 
 }
 
 /* Label Styles */
 label {
-    margin-bottom: 8px; /* Add margin below labels */
-    font-weight: bold; /* Make labels bold */
+    margin-bottom: 8px; 
+    font-weight: bold; 
 }
 
 /* Input and Select Styles */
 input, select {
-    margin-bottom: 16px; /* Add margin below inputs and selects */
-    padding: 10px; /* Set padding for inputs and selects */
-    border: 1px solid #ccc; /* Add a border around inputs and selects */
-    border-radius: 4px; /* Add rounded corners to inputs and selects */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 16px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
 }
 
 /* Submit Button Styles */
 input[type="submit"] {
-    background-color: #4caf50; /* Set the background color for the submit button */
-    color: #fff; /* Set text color for the submit button */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    border: none; /* Remove default border */
-    padding: 12px; /* Set padding for the submit button */
-    border-radius: 4px; /* Add rounded corners to the submit button */
-    font-size: 16px; /* Set font size for the submit button */
+    background-color: #4caf50; 
+    color: #fff; 
+    cursor: pointer; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 4px; 
+    font-size: 16px; 
 }
 
 /* Submit Button Hover Styles */
 input[type="submit"]:hover {
-    background-color: #45a049; /* Set the background color on hover */
+    background-color: #45a049; 
 }
 
 /* Responsive Styling */
 @media (max-width: 600px) {
     .container {
-        width: 90%; /* Adjust container width for smaller screens */
+        width: 90%; 
     }
 }
 
