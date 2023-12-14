@@ -78,11 +78,11 @@ The `styles.css` file provides styling for HTML pages, ensuring a visually appea
 
 ## Acknowledgments
 
-- Thanks to [Dr. Ali Malik] for guidance.
+- Thanks to Dr. Ali Malik for guidance.
 
 ## Contact Information
 
-For questions or issues, contact [Dylan Holmwood](D21124331@mytudublin.ie).
+For questions or issues, contact D21124331@mytudublin.ie
 
 ## Project Status
 
