@@ -8,6 +8,12 @@
 </head>
 <body>
 
+<div class="header">
+    <div class="banner">
+        <h1>TUD Sandwich Shop</h1>
+    </div>
+</div>
+
 <div class="container">
     <h2>Order Your Sandwich</h2>
     <form action="process_order.php" method="post">
@@ -22,10 +28,27 @@
         </select>
 
         <label for="filling">Filling:</label>
-        <input type="text" name="filling" required>
+        <select name="filling" required>
+            <option value="ham">Ham</option>
+            <option value="turkey">Turkey</option>
+            <option value="chicken">Chicken</option>
+        </select>
 
         <label for="topping">Topping:</label>
-        <input type="text" name="topping">
+        <select name="topping">
+            <option value="">None</option> <!-- Added option for no toppings -->
+            <option value="lettuce">Lettuce</option>
+            <option value="tomato">Tomato</option>
+            <option value="cheese">Cheese</option>
+        </select>
+
+        <label for="condiment">Condiment:</label>
+        <select name="condiment">
+            <option value="">None</option> <!-- Added option for no condiment -->
+            <option value="mayo">Mayo</option>
+            <option value="mustard">Mustard</option>
+            <option value="ketchup">Ketchup</option>
+        </select>
 
         <input type="submit" value="Place Order">
     </form>
@@ -33,3 +56,4 @@
 
 </body>
 </html>
+
