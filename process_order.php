@@ -42,7 +42,7 @@
         $sql = "INSERT INTO orders (name, bread, filling, topping, condiment, price) VALUES ('$name', '$bread', '$filling', '$topping', '$condiment', $price)";
 
         if ($conn->query($sql) === TRUE) {
-            echo "<p>Thank you, $name! Your order has been placed successfully and recorded in the database.</p>";
+            echo "<p>Thank you, $name! Your order has been placed successfully.</p>";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
